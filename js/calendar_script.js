@@ -46,40 +46,42 @@ $(document).ready(function() {
       titleFormat: "MM",
       calendarEvents: [{
           id: "1",
-          name: "Test GGSA Event",
-          description: "Test Test",
-          date: "September/15/2021",
+          name: "Fist GGSA Meeting",
+          description: "Fist GGSA meeting of 2021-22 school year.",
+          date: "September/13/2021",
           type: "ggsa",
       }, {
           id: "2",
-          name: "Test GeoPath Event",
-          description: "Test Test.",
-          badge: "2-day event",
-          date:"September/15/2021",
-          type: "geopath",
+          name: "Weeks Lecture by Dr. Selva Marroquin",
+          description: "Investigating the redox conditions contributing to organic matter burial in the geologic record",
+          //badge: "2-day event",
+          date:"September/17/2021",
+          type: "department",
       }, {
           id: "3",
-          name: "Test AAPG Event",
-          description: "aapg 10:20 am",
-          date: "September/20/2021",
-          type: "aapg"
+          name: "Weeks Lecture by Dr. Silvia Pineda Munoz",
+          description: "Fossils, maps, and teeth: merging paleontology and ecology to advance conservation practices",
+          date: "September/24/2021",
+          type: "department"
       }, {
           id: "4",
-          name: "Test AWG Event 1:00 pm",
-          date: "September/15/2021",
-          type: "awg"
+          name: "Weeks Lecture by Dr. Monique Holt",
+          description:"The calibration and optimization of ML–MC as a depth discriminant",
+          date: "October/1/2021",
+          type: "department"
       }, {
           id: "5",
-          name: "Test GeoClub Event",
-          description: "geoclub 2:30 pm",
-          date: "September/2/2021",
-          type: "geoclub"
-      }
-      , {
-          id: "6",
-          name: "Test Department Event",
-          description: "test test test test",
-          date: "September/13/2021",
+          name: "GSA Meeting",
+          description: "GSA 2021 in Oregon",
+          badge: "4-day event",
+          date: ["October/10/2021","October/13/2021"],
+          type: "department"
+      }, {
+          id: "5",
+          name: "AGU Fall Meeting",
+          description: "AGU 2021 Meeting in Louisiana",
+          badge: "5-day event",
+          date: ["December/13/2021","December/17/2021"],
           type: "department"
       }
     ]

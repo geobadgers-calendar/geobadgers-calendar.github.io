@@ -1,3 +1,5 @@
+//import { get_data } from 'data.js';
+//let all_events = get_data();  // val is "Hello";
 
 var defaultTheme = 1;
 
@@ -41,7 +43,8 @@ function getWeeksInMonth(a, b) {
 week_date = getWeeksInMonth(today.getMonth(), today.getFullYear())[2];
 
 $(document).ready(function() {
-  $("#demoEvoCalendar").evoCalendar({
+  $("#demoEvoCalendar").evoCalendar(
+    {
       format: "MM dd, yyyy",
       titleFormat: "MM",
       calendarEvents: [{
@@ -85,7 +88,8 @@ $(document).ready(function() {
           type: "department"
       }
     ]
-  });
+  }
+);
   $("[data-set-theme]").click(function(b) {
       a(b.target);
   });

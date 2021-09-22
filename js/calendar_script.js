@@ -86,6 +86,12 @@ $(document).ready(function() {
           badge: "5-day event",
           date: ["December/13/2021","December/17/2021"],
           type: "department"
+      }, {
+          id: "5",
+          name: "Grad School Panel",
+          description: "GePath Grad School Panel 5-6 pm",
+          date: "September/23/2021",
+          type: "geopath"
       }
     ]
   }

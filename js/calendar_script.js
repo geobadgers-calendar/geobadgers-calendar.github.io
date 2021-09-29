@@ -49,8 +49,8 @@ $(document).ready(function() {
       titleFormat: "MM",
       calendarEvents: [{
           id: "1",
-          name: "Fist GGSA Meeting",
-          description: "Fist GGSA meeting of 2021-22 school year.",
+          name: "First GGSA Meeting",
+          description: "First GGSA meeting of 2021-22 school year.",
           date: "September/13/2021",
           type: "ggsa",
       }, {
@@ -92,7 +92,25 @@ $(document).ready(function() {
           description: "GePath Grad School Panel 5-6 pm",
           date: "September/23/2021",
           type: "geopath"
-      }
+      }, {
+          id: "6",
+          name: "Second GGSA Meeting",
+          description: "Secoonnd GGSA meeting of 2021-22 school year; 10 am.",
+          date: "October/4/2021",
+          type: "ggsa",
+      }, {
+          id: "7",
+          name: "Third GGSA Meeting",
+          description: "Third GGSA meeting of 2021-22 school year; 10 am.",
+          date: "November/1/2021",
+          type: "ggsa",
+      }, {
+          id: "8",
+          name: "Fourth GGSA Meeting",
+          description: "Fourth GGSA meeting of 2021-22 school year; 10 am.",
+          date: "December/6/2021",
+          type: "ggsa",
+      },
     ]
   }
 );

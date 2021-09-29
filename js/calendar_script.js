@@ -80,37 +80,37 @@ $(document).ready(function() {
           date: ["October/10/2021","October/13/2021"],
           type: "department"
       }, {
-          id: "5",
+          id: "6",
           name: "AGU Fall Meeting",
           description: "AGU 2021 Meeting in Louisiana",
           badge: "5-day event",
           date: ["December/13/2021","December/17/2021"],
           type: "department"
       }, {
-          id: "5",
+          id: "7",
           name: "Grad School Panel",
           description: "GePath Grad School Panel 5-6 pm",
           date: "September/23/2021",
           type: "geopath"
       }, {
-          id: "6",
+          id: "8",
           name: "Second GGSA Meeting",
           description: "Secoonnd GGSA meeting of 2021-22 school year; 10 am.",
           date: "October/4/2021",
           type: "ggsa",
       }, {
-          id: "7",
+          id: "9",
           name: "Third GGSA Meeting",
           description: "Third GGSA meeting of 2021-22 school year; 10 am.",
           date: "November/1/2021",
           type: "ggsa",
       }, {
-          id: "8",
+          id: "10",
           name: "Fourth GGSA Meeting",
           description: "Fourth GGSA meeting of 2021-22 school year; 10 am.",
           date: "December/6/2021",
           type: "ggsa",
-      },
+      }
     ]
   }
 );

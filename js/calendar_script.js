@@ -110,6 +110,13 @@ $(document).ready(function() {
           description: "Fourth GGSA meeting of 2021-22 school year; 10 am.",
           date: "December/6/2021",
           type: "ggsa",
+      }, {
+          id: "11",
+          name: "AWG Camping",
+          description: "AWG Camping @ Wyalusing State Park",
+          badge: "2-day event",
+          date: ["October/1/2021","October/2/2021"],
+          type: "awg",
       }
     ]
   }

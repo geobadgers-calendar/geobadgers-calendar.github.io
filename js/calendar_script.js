@@ -89,7 +89,7 @@ $(document).ready(function() {
       }, {
           id: "7",
           name: "Grad School Panel",
-          description: "GePath Grad School Panel 5-6 pm",
+          description: "GeoPath Grad School Panel 5-6 pm",
           date: "September/23/2021",
           type: "geopath"
       }, {
